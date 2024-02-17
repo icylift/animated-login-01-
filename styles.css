@@ -91,3 +91,72 @@ body  {
 
 }
 
+.separator  {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.separator .line  {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+
+}
+
+.separator p  {
+  color: #fff;
+
+}
+
+.login-section .separator p {
+  color: #000;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+form input  {
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.login-section input  {
+  border: 1px solid #aaa;
+}
+
+form a  {
+  color: #333;
+}
+
+.signup-section form a  {
+  columns: #fff;
+}
+
+form .btn  {
+  margin-top: 15px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-section  .btn  {
+  background: #303f9f;
+  color: #fff;
+  border: none;
+}
