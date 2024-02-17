@@ -26,7 +26,7 @@ body  {
   width: 460px;
   height: 640px;
   padding: 20px 30px 120px;
-  background: #303f9f;
+  background: #4bc479;
   border-radius: 12px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -35,6 +35,7 @@ body  {
 .login-section  {
   position: absolute;
   left: 50%;
+  bottom: -88%;
   transform: translate(-50%);
   width: calc(100% + 180px);
   padding: 20px 140px;
@@ -69,7 +70,7 @@ body  {
 .social-buttons button  {
   width: 100%;
   padding: 10px;
-  background: #fff;
+  background: #f7d9c0;
   border-radius: 10px;
   font-size: 16px;
   display: flex;
@@ -130,7 +131,7 @@ form input  {
   color: #333;
   font-weight: 400;
   border-radius: 8px;
-  background: #fff;
+  background: #f7d9c0;
 }
 
 .login-section input  {
@@ -142,7 +143,11 @@ form a  {
 }
 
 .signup-section form a  {
-  columns: #fff;
+  columns: #f7d9c0;
+}
+
+.signup-section form .btn {
+  background-color: #f7d9c0;
 }
 
 form .btn  {
@@ -156,7 +161,21 @@ form .btn  {
 }
 
 .login-section  .btn  {
-  background: #303f9f;
+  background: #4bc479;
   color: #fff;
   border: none;
+}
+
+.container.active .login-section  {
+  bottom: -12%;
+  border-radius: 220px;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.active .login-section header{
+  opacity: 1;
+}
+
+.container.active .signup-section header{
+  opacity: 0.6;
 }
